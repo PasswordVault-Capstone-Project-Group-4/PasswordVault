@@ -89,7 +89,7 @@ export default function AddPasswordScreen({ navigation }: AddPasswordScreenProps
               setPassword(value);
               setErrors((current) => ({ ...current, password: undefined }));
             }}
-            placeholder="Enter password"
+            placeholder="Enter Your Respective Passwords"
             value={password}
           />
 
